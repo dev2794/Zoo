@@ -1,13 +1,31 @@
 package animals;
 
-public class Wolf extends Animals{
-    Wolf(int stamina, double weight, String name) {
-        super(stamina, weight, name);
+public class Wolf extends Animals implements Run, Swim{
+
+    private final String voice = "Ауф";
+    Wolf(String name,int stamina, double weight) {
+        super(name, stamina, weight);
+        super.voice = this.voice;
     }
-  private final   String voice = "Ауф";
+
+
     @Override
-    public void eat(String food) {
+    public void run() {
+               if (stamina > 0){
+                stamina -= 1;
+                System.out.println(name + " бежит!!! (и тратит одно очко выносливости)");
+            } else {
+                System.out.println(name + " не имеет нужного количества сил для бега.");
+            }
 
     }
-
+    @Override
+    public void swim() {
+        if (stamina > 0){
+            stamina -= 1;
+            System.out.println(name + " плывет!!! И кто запустил хищника в водоем!?!? (тратит одно очко выносливости)");
+        } else {
+            System.out.println(name + " не имеет нужного количества сил для посещения пруда.");
+        }
+    }
 }

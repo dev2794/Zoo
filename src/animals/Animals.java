@@ -1,23 +1,25 @@
 package animals;
 
-public abstract class Animals {
-    private int stamina;
-    private double weight;
-    private String name;
+public abstract class Animals implements Voice {
+    protected int stamina = 5;
+    protected double weight = 3.0;
+    protected String name;
+    protected String voice;
 
-
-    Animals (int stamina, double weight, String name){
-        this.stamina = stamina;
-        this.weight = weight;
+    Animals(String name) {
         this.name = name;
     }
 
-    public abstract void eat(String food);
-    public void sleep(){
-        System.out.println(name + " спит и набирается сил");
-        stamina += 3;
+    Animals(String name, int stamina, double weight) {
+        this(name);
+        this.stamina = stamina;
+        this.weight = weight;
     }
 
+    public String voice() {
+        this.voice.length();
+        return (name + " говорит: \"" + voice + "\"");
+    }
 
 }
 

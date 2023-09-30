@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d56b298-049b-496d-b05f-37c2b4e94695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/animals/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Deer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Elk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Lynx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/food/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Voice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Deer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Elk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Elk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Lynx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Lynx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Wolf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,6 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/animals/Deer.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/animals/Duck.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{

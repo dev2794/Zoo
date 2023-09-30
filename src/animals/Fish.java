@@ -1,18 +1,15 @@
 package animals;
 
-public class Fish extends Animals {
-    private String voice;
-    public Fish(int stamina, double weight, String name) {
-        super(stamina, weight, name);
+public class Fish extends Animals implements Swim {
+    private final String voice = null;
+
+    public Fish(String name,int stamina, double weight) {
+    super(name, stamina, weight);
+    super.voice = this.voice;
     }
 
     @Override
-    public void eat(String food) {
+    public void swim() {
+        System.out.println(name + " плывет и чувствует себя как рыба в воде =) (не расходует выносливость)");
     }
-
-//    @Override
-//    public String voice() throws NullPointerException {
-//
-//       return(voice);
-//    }
 }
