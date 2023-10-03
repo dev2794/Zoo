@@ -1,6 +1,6 @@
 package animals;
 
-public class Fish extends Animals implements Swim {
+public class Fish extends Herbivore implements Swim {
     private final String voice = null;
 
     public Fish(String name,int stamina, double weight) {
@@ -11,5 +11,9 @@ public class Fish extends Animals implements Swim {
     @Override
     public void swim() {
         System.out.println(name + " плывет и чувствует себя как рыба в воде =) (не расходует выносливость)");
+        System.out.println("Текущая выносливость " + getStamina());
+
     }
+
+
 }

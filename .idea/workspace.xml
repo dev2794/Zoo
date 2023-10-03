@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d56b298-049b-496d-b05f-37c2b4e94695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/animals/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Voice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Carnivorous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Herbivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/food/Grass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/food/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/worker/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Animals.java" afterDir="false" />
@@ -16,8 +19,13 @@
       <change beforePath="$PROJECT_DIR$/src/animals/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animals/Elk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Elk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animals/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Fly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animals/Lynx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Lynx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Swim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Voice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/food/Food.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/animals/Carnivorous.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/animals/Deer.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/animals/Duck.java" root0="SKIP_INSPECTION" />
   </component>
@@ -86,5 +95,15 @@
       <updated>1695977696293</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
