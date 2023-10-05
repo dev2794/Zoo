@@ -22,25 +22,24 @@ public abstract class Animals implements Sleep, Eat {
     public int getStamina() {
         return stamina;
     }
-    public String getName (){
+
+    public String getName() {
         return name;
     }
 
     @Override
-    public void sleep(){
+    public void sleep() {
         System.out.println(name + " спит и набирается сил (плюс " + staminaUpperSleep + " к выносливости)");
         stamina += staminaUpperSleep;
         System.out.println("Текущая выносливость " + getStamina());
     }
 
     @Override
-   abstract public void eat(Food food);
+    abstract public void eat(Food food);
 
     public int getAmountSwimAnimals() {
         return AmountSwimAnimals;
     }
-
-
 }
 
 

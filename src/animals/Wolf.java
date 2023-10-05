@@ -10,14 +10,13 @@ public class Wolf extends Carnivorous implements Run, Swim, Voice {
 
     @Override
     public void run() {
-        if (stamina >= staminaSpendRun){
+        if (stamina >= staminaSpendRun) {
             stamina -= staminaSpendRun;
-            System.out.println(name + " бежит!!! (и тратит " + staminaSpendRun +" выносливости)");
+            System.out.println(name + " бежит!!! (и тратит " + staminaSpendRun + " выносливости)");
         } else {
             System.out.println(name + " не имеет нужного количества сил для бега.");
         }
         System.out.println("Текущая выносливость " + getStamina());
-
     }
 
     @Override
@@ -29,7 +28,6 @@ public class Wolf extends Carnivorous implements Run, Swim, Voice {
             System.out.println(name + " не имеет нужного количества сил для посещения пруда.");
         }
         System.out.println("Текущая выносливость " + getStamina());
-
     }
 
     @Override
@@ -39,5 +37,4 @@ public class Wolf extends Carnivorous implements Run, Swim, Voice {
         System.out.println("Текущая выносливость " + getStamina());
         return (name + " говорит: " + voice);
     }
-
 }
